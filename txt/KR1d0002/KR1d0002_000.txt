@@ -1,0 +1,38 @@
+# -*- mode: mandoku-view; -*-
+#+TITLE: 周禮
+#+DATE: 2015-09-10 22:47:16.030338
+#+PROPERTY: ID KR1d0002
+#+PROPERTY: BASEEDITION SBCK    
+#+PROPERTY: WITNESS SBCK
+#+PROPERTY: JUAN 0
+#+PROPERTY: FILE SB01n0005-000周禮-目録.
+<pb:KR1d0002_SBCK_000-1a>¶
+周禮目録¶
+　卷第一¶
+　　　天官冡宰上¶
+　卷第二¶
+　　　天官冡宰下¶
+　卷第三¶
+　　　地官司徒上¶
+　卷第四¶
+<pb:KR1d0002_SBCK_000-1b>¶
+　　　地官司徒下¶
+　　卷第五¶
+　　　春官宗伯上¶
+　　卷第六¶
+　　　春官宗伯下¶
+　　卷第七¶
+　　　夏官司馬上¶
+　　卷第八¶
+<pb:KR1d0002_SBCK_000-2a>¶
+　　　夏官司馬下¶
+　　卷第九¶
+　　　秋官司㓂上¶
+　　卷第十¶
+　　　秋官司㓂下¶
+　　卷第十一¶
+　　　冬官考工記上¶
+　　卷第十二¶
+<pb:KR1d0002_SBCK_000-2b>¶
+　　冬官考工記下¶
+周禮目録(畢)¶
