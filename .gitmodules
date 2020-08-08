@@ -1,0 +1,24 @@
+[submodule "txt/KR2e0003"]
+	path = txt/KR2e0003
+	url = https://github.com/kanripo/KR2e0003.git
+[submodule "txt/KR3a0010"]
+	path = txt/KR3a0010
+	url = https://github.com/kanripo/KR3a0010.git
+[submodule "txt/KR3f0032"]
+	path = txt/KR3f0032
+	url = https://github.com/kanripo/KR3f0032.git
+[submodule "txt/KR1d0002"]
+	path = txt/KR1d0002
+	url = https://github.com/kanripo/KR1d0002.git
+[submodule "txt/KR3f0001"]
+	path = txt/KR3f0001
+	url = https://github.com/kanripo/KR3f0001.git
+[submodule "txt/KR2b0001"]
+	path = txt/KR2b0001
+	url = https://github.com/kanripo/KR2b0001.git
+[submodule "txt/KR4a0002"]
+	path = txt/KR4a0002
+	url = https://github.com/kanripo/KR4a0002.git
+[submodule "txt/KR1e0006"]
+	path = txt/KR1e0006
+	url = https://github.com/kanripo/KR1e0006.git
