@@ -4,13 +4,13 @@ early chinese texts corpus sourced from kanseki repository
 ## title list
 in order listed in Loewe 1993
 
-- [x] 戰國策
-- [x] 潛夫論
-- [x] 九章算術
-- [x] 周禮
-- [x] 周髀算經
-- [x] 竹書紀年
-- [x] 楚辭
+- [x] [KR2e0003](txt/KR2e0003) 戰國策
+- [x] [KR3a0010](txt/KR3a0010) 潛夫論
+- [x] [KR3f0032](txt/KR3f0032) 九章算術
+- [x] [KR1d0002](txt/KR1d0002) 周禮
+- [x] [KR3f0001](txt/KR3f0001) 周髀算經
+- [x] [KR2b0001](txt/KR2b0001) 竹書紀年
+- [x] [KR4a0002](txt/KR4a0002) 楚辭
 - [ ] 莊子
 - [ ] 春秋左傳
 - [ ] 春秋公羊傳
