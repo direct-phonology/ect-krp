@@ -1,8 +1,12 @@
-# ect-krp
-early chinese text corpus sourced from kanseki repository
+# Early Chinese texts from the Kanseki Repository
+This repository aggregates the Kanseki Repository's digital versions of 64 key 
+texts from early China. The titles are drawn from:
 
-## title list
-in order listed in Loewe 1993
+> Loewe, Michael, ed. _Early Chinese Texts: A Bibliographical Guide_. Early China Special Monograph Series, no. 2. Berkeley, Calif.: Society for the Study of Early China : Institute of East Asian Studies, University of California, Berkeley, 1993.
+
+
+## Titles
+Shown in the order listed in Loewe 1993:
 
 - [x] [KR2e0003](txt/KR2e0003) 戰國策
 - [x] [KR3a0010](txt/KR3a0010) 潛夫論
@@ -70,3 +74,6 @@ in order listed in Loewe 1993
 - [ ] 鹽鐵論
 - [ ] 晏子春秋
 - [ ] 越絕書
+
+## License
+All Kanseki Repository texts are licensed [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
