@@ -22,7 +22,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 春秋繁露
 - [ ] 中論
 - [ ] 爾雅
-- [ ] 法言
+- [x] [KR3a0009](txt/KR3a0009) 法言
 - [ ] 風俗通義
 - [ ] 漢記
 - [ ] 韓非子
@@ -39,7 +39,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 黃帝內經
 - [ ] 易經
 - [ ] 逸周書
-- [ ] 儀禮
+- [x] [KR1d0026](txt/KR1d0026) 儀禮
 - [x] [KR3c0001](txt/KR3c0001) 管子
 - [ ] 公孫龍子
 - [ ] 孔子家語
