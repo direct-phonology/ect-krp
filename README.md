@@ -1,5 +1,5 @@
 # ect-krp
-early chinese texts corpus sourced from kanseki repository
+early chinese text corpus sourced from kanseki repository
 
 ## title list
 in order listed in Loewe 1993
@@ -36,7 +36,7 @@ in order listed in Loewe 1993
 - [ ] 易經
 - [ ] 逸周書
 - [ ] 儀禮
-- [ ] 管子
+- [x] [KR3c0001](txt/KR3c0001) 管子
 - [ ] 公孫龍子
 - [ ] 孔子家語
 - [ ] 國語
