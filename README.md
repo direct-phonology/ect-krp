@@ -23,7 +23,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3a0012](txt/KR3a0012) 中論
 - [x] [KR1j0002](txt/KR1j0002) 爾雅
 - [x] [KR3a0009](txt/KR3a0009) 法言
-- [ ] 風俗通義
+- [x] [KR3j0081](txt/KR3j0081) 風俗通義
 - [ ] 漢記
 - [ ] 韓非子
 - [ ] 韓詩外傳
