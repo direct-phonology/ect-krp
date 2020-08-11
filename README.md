@@ -32,7 +32,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 孝經
 - [ ] 新序
 - [ ] 新論
-- [ ] 新書
+- [x] [KR3a0005](txt/KR3a0005) 新書
 - [ ] 新語
 - [x] [KR3a0002](txt/KR3a0002) 荀子
 - [ ] 淮南子
