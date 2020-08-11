@@ -29,8 +29,8 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR1c0066](txt/KR1c0066) 韓詩外傳
 - [ ] 漢書
 - [x] [KR3j0006](txt/KR3j0006) 鶡冠子
-- [ ] 孝經
-- [ ] 新序
+- [x] [KR1f0002](txt/KR1f0002) 孝經
+- [x] [KR3a0008](txt/KR3a0008) 新序
 - [ ] 新論
 - [x] [KR3a0005](txt/KR3a0005) 新書
 - [ ] 新語
