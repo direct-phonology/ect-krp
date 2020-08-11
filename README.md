@@ -21,7 +21,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 春秋左傳
 - [ ] 春秋繁露
 - [x] [KR3a0012](txt/KR3a0012) 中論
-- [ ] 爾雅
+- [x] [KR1j0002](txt/KR1j0002) 爾雅
 - [x] [KR3a0009](txt/KR3a0009) 法言
 - [ ] 風俗通義
 - [ ] 漢記
