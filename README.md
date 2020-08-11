@@ -26,7 +26,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3j0081](txt/KR3j0081) 風俗通義
 - [ ] 漢記
 - [x] [KR3c0005](txt/KR3c0005) 韓非子
-- [ ] 韓詩外傳
+- [x] [KR1c0066](txt/KR1c0066) 韓詩外傳
 - [ ] 漢書
 - [x] [KR3j0006](txt/KR3j0006) 鶡冠子
 - [ ] 孝經
