@@ -76,4 +76,4 @@ Shown in the order listed in Loewe 1993:
 - [ ] 越絕書
 
 ## License
-All Kanseki Repository texts are licensed [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+All Kanseki Repository texts are licensed [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode). See [LICENSE](LICENSE).
