@@ -33,7 +33,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3a0008](txt/KR3a0008) 新序
 - [x] [KR3j0192](txt/KR3j0192) 新論
 - [x] [KR3a0005](txt/KR3a0005) 新書
-- [ ] 新語
+- [x] [KR3a0004](txt/KR3a0004) 新語
 - [x] [KR3a0002](txt/KR3a0002) 荀子
 - [ ] 淮南子
 - [ ] 黃帝內經
