@@ -42,7 +42,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR1d0026](txt/KR1d0026) 儀禮
 - [x] [KR3c0001](txt/KR3c0001) 管子
 - [x] [KR3j0007](txt/KR3j0007) 公孫龍子
-- [ ] 孔子家語
+- [x] [KR3a0001](txt/KR3a0001) 孔子家語
 - [ ] 國語
 - [ ] 老子道德經
 - [ ] 禮記
