@@ -37,7 +37,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3a0002](txt/KR3a0002) 荀子
 - [ ] 淮南子
 - [ ] 黃帝內經
-- [ ] 易經
+- [x] [KR1a0001](txt/KR1a0001) 易經
 - [ ] 逸周書
 - [x] [KR1d0026](txt/KR1d0026) 儀禮
 - [x] [KR3c0001](txt/KR3c0001) 管子
