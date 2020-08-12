@@ -38,10 +38,10 @@ Shown in the order listed in Loewe 1993:
 - [ ] 淮南子
 - [ ] 黃帝內經
 - [x] [KR1a0001](txt/KR1a0001) 易經
-- [ ] 逸周書
+- [x] [KR2d0001](txt/KR2d0001) 逸周書
 - [x] [KR1d0026](txt/KR1d0026) 儀禮
 - [x] [KR3c0001](txt/KR3c0001) 管子
-- [ ] 公孫龍子
+- [x] [KR3j0007](txt/KR3j0007) 公孫龍子
 - [ ] 孔子家語
 - [ ] 國語
 - [ ] 老子道德經
