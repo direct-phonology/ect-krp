@@ -1,9 +1,7 @@
 # Early Chinese texts from the Kanseki Repository
-This repository aggregates the Kanseki Repository's digital versions of 64 key 
-texts from early China. The titles are drawn from:
+This repository aggregates the Kanseki Repository's digital versions of 64 key texts from early China. The titles are drawn from:
 
 > Loewe, Michael, ed. _Early Chinese Texts: A Bibliographical Guide_. Early China Special Monograph Series, no. 2. Berkeley, Calif.: Society for the Study of Early China : Institute of East Asian Studies, University of California, Berkeley, 1993.
-
 
 ## Titles
 Shown in the order listed in Loewe 1993:
@@ -43,7 +41,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3c0001](txt/KR3c0001) 管子
 - [x] [KR3j0007](txt/KR3j0007) 公孫龍子
 - [x] [KR3a0001](txt/KR3a0001) 孔子家語
-- [ ] 國語
+- [x] [KR2e0001](txt/KR2e0001) 國語
 - [ ] 老子道德經
 - [ ] 禮記
 - [ ] 列子

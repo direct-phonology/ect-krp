@@ -79,3 +79,6 @@
 [submodule "txt/KR3a0001"]
 	path = txt/KR3a0001
 	url = git@github.com:kanripo/KR3a0001.git
+[submodule "txt/KR2e0001"]
+	path = txt/KR2e0001
+	url = git@github.com:kanripo/KR2e0001.git
