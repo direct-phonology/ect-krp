@@ -45,7 +45,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR5c0057](txt/KR5c0057) 老子道德經
 - [x] [KR1d0052](txt/KR1d0052) 禮記
 - [x] [KR5c0124](txt/KR5c0124) 列子
-- [ ] 論衡
+- [x] [KR3j0080](txt/KR3j0080) 論衡
 - [ ] 論語
 - [ ] 呂氏春秋
 - [ ] 孟子
