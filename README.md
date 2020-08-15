@@ -60,7 +60,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 慎子
 - [ ] 史記
 - [ ] 詩經
-- [ ] 釋名
+- [x] [KR1j0007](txt/KR1j0007) 釋名
 - [ ] 說文解字
 - [ ] 說苑
 - [ ] 孫子兵法
