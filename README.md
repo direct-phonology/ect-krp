@@ -3,6 +3,8 @@ This repository aggregates the Kanseki Repository's digital versions of 64 key t
 
 > Loewe, Michael, ed. _Early Chinese Texts: A Bibliographical Guide_. Early China Special Monograph Series, no. 2. Berkeley, Calif.: Society for the Study of Early China : Institute of East Asian Studies, University of California, Berkeley, 1993.
 
+Note that **not all texts are currently represented**. The corpus is a work in progress. See the title list to check which items are available.
+
 ## Titles
 Shown in the order listed in Loewe 1993:
 
