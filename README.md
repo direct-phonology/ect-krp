@@ -51,7 +51,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR1h0001](txt/KR1h0001) 孟子
 - [x] [KR3j0002](txt/KR3j0002) 墨子
 - [x] [KR3l0092](txt/KR3l0092) 穆天子傳
-- [ ] 白虎通
+- [x] [KR3j0023](txt/KR3j0023) 白虎通
 - [ ] 山海經
 - [ ] 商君書
 - [ ] 尚書
