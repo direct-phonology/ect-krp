@@ -64,7 +64,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR1j0018](txt/KR1j0018) 說文解字
 - [x] [KR3a0007](txt/KR3a0007) 說苑
 - [ ] 孫子兵法
-- [ ] 大戴禮記
+- [x] [KR1d0076](txt/KR1d0076) 大戴禮記
 - [ ] 太玄經
 - [ ] 獨斷
 - [x] [KR2d0002](txt/KR2d0002) 東觀漢記
