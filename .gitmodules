@@ -88,3 +88,6 @@
 [submodule "txt/KR1d0052"]
 	path = txt/KR1d0052
 	url = git@github.com:kanripo/KR1d0052.git
+[submodule "txt/KR5c0124"]
+	path = txt/KR5c0124
+	url = git@github.com:kanripo/KR5c0124.git
