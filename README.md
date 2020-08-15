@@ -62,7 +62,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 詩經
 - [x] [KR1j0007](txt/KR1j0007) 釋名
 - [x] [KR1j0018](txt/KR1j0018) 說文解字
-- [ ] 說苑
+- [x] [KR3a0007](txt/KR3a0007) 說苑
 - [ ] 孫子兵法
 - [ ] 大戴禮記
 - [ ] 太玄經
