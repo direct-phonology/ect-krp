@@ -1,153 +1,153 @@
-[submodule "org/KR2e0003"]
+[submodule "KR2e0003"]
 	path = org/KR2e0003
 	url = git@github.com:kanripo/KR2e0003.git
-[submodule "org/KR3a0010"]
+[submodule "KR3a0010"]
 	path = org/KR3a0010
 	url = git@github.com:kanripo/KR3a0010.git
-[submodule "org/KR3f0032"]
+[submodule "KR3f0032"]
 	path = org/KR3f0032
 	url = git@github.com:kanripo/KR3f0032.git
-[submodule "org/KR1d0002"]
+[submodule "KR1d0002"]
 	path = org/KR1d0002
 	url = git@github.com:kanripo/KR1d0002.git
-[submodule "org/KR3f0001"]
+[submodule "KR3f0001"]
 	path = org/KR3f0001
 	url = git@github.com:kanripo/KR3f0001.git
-[submodule "org/KR2b0001"]
+[submodule "KR2b0001"]
 	path = org/KR2b0001
 	url = git@github.com:kanripo/KR2b0001.git
-[submodule "org/KR4a0002"]
+[submodule "KR4a0002"]
 	path = org/KR4a0002
 	url = git@github.com:kanripo/KR4a0002.git
-[submodule "org/KR3c0001"]
+[submodule "KR3c0001"]
 	path = org/KR3c0001
 	url = git@github.com:kanripo/KR3c0001.git
-[submodule "org/KR3j0006"]
+[submodule "KR3j0006"]
 	path = org/KR3j0006
 	url = git@github.com:kanripo/KR3j0006.git
-[submodule "org/KR3a0002"]
+[submodule "KR3a0002"]
 	path = org/KR3a0002
 	url = git@github.com:kanripo/KR3a0002.git
-[submodule "org/KR1d0026"]
+[submodule "KR1d0026"]
 	path = org/KR1d0026
 	url = git@github.com:kanripo/KR1d0026.git
-[submodule "org/KR3a0009"]
+[submodule "KR3a0009"]
 	path = org/KR3a0009
 	url = git@github.com:kanripo/KR3a0009.git
-[submodule "org/KR3a0012"]
+[submodule "KR3a0012"]
 	path = org/KR3a0012
 	url = git@github.com:kanripo/KR3a0012.git
-[submodule "org/KR1j0002"]
+[submodule "KR1j0002"]
 	path = org/KR1j0002
 	url = git@github.com:kanripo/KR1j0002.git
-[submodule "org/KR3j0081"]
+[submodule "KR3j0081"]
 	path = org/KR3j0081
 	url = git@github.com:kanripo/KR3j0081.git
-[submodule "org/KR2d0002"]
+[submodule "KR2d0002"]
 	path = org/KR2d0002
 	url = git@github.com:kanripo/KR2d0002.git
-[submodule "org/KR3c0005"]
+[submodule "KR3c0005"]
 	path = org/KR3c0005
 	url = git@github.com:kanripo/KR3c0005.git
-[submodule "org/KR1c0066"]
+[submodule "KR1c0066"]
 	path = org/KR1c0066
 	url = git@github.com:kanripo/KR1c0066.git
-[submodule "org/KR3a0005"]
+[submodule "KR3a0005"]
 	path = org/KR3a0005
 	url = git@github.com:kanripo/KR3a0005.git
-[submodule "org/KR1f0002"]
+[submodule "KR1f0002"]
 	path = org/KR1f0002
 	url = git@github.com:kanripo/KR1f0002.git
-[submodule "org/KR3a0008"]
+[submodule "KR3a0008"]
 	path = org/KR3a0008
 	url = git@github.com:kanripo/KR3a0008.git
-[submodule "org/KR3j0192"]
+[submodule "KR3j0192"]
 	path = org/KR3j0192
 	url = git@github.com:kanripo/KR3j0192.git
-[submodule "org/KR3a0004"]
+[submodule "KR3a0004"]
 	path = org/KR3a0004
 	url = git@github.com:kanripo/KR3a0004.git
-[submodule "org/KR1a0001"]
+[submodule "KR1a0001"]
 	path = org/KR1a0001
 	url = git@github.com:kanripo/KR1a0001.git
-[submodule "org/KR2d0001"]
+[submodule "KR2d0001"]
 	path = org/KR2d0001
 	url = git@github.com:kanripo/KR2d0001.git
-[submodule "org/KR3j0007"]
+[submodule "KR3j0007"]
 	path = org/KR3j0007
 	url = git@github.com:kanripo/KR3j0007.git
-[submodule "org/KR3a0001"]
+[submodule "KR3a0001"]
 	path = org/KR3a0001
 	url = git@github.com:kanripo/KR3a0001.git
-[submodule "org/KR2e0001"]
+[submodule "KR2e0001"]
 	path = org/KR2e0001
 	url = git@github.com:kanripo/KR2e0001.git
-[submodule "org/KR5c0057"]
+[submodule "KR5c0057"]
 	path = org/KR5c0057
 	url = git@github.com:kanripo/KR5c0057.git
-[submodule "org/KR1d0052"]
+[submodule "KR1d0052"]
 	path = org/KR1d0052
 	url = git@github.com:kanripo/KR1d0052.git
-[submodule "org/KR5c0124"]
+[submodule "KR5c0124"]
 	path = org/KR5c0124
 	url = git@github.com:kanripo/KR5c0124.git
-[submodule "org/KR3j0080"]
+[submodule "KR3j0080"]
 	path = org/KR3j0080
 	url = git@github.com:kanripo/KR3j0080.git
-[submodule "org/KR1h0004"]
+[submodule "KR1h0004"]
 	path = org/KR1h0004
 	url = git@github.com:kanripo/KR1h0004.git
-[submodule "org/KR3j0009"]
+[submodule "KR3j0009"]
 	path = org/KR3j0009
 	url = git@github.com:kanripo/KR3j0009.git
-[submodule "org/KR1h0001"]
+[submodule "KR1h0001"]
 	path = org/KR1h0001
 	url = git@github.com:kanripo/KR1h0001.git
-[submodule "org/KR3j0002"]
+[submodule "KR3j0002"]
 	path = org/KR3j0002
 	url = git@github.com:kanripo/KR3j0002.git
-[submodule "org/KR3l0092"]
+[submodule "KR3l0092"]
 	path = org/KR3l0092
 	url = git@github.com:kanripo/KR3l0092.git
-[submodule "org/KR3j0023"]
+[submodule "KR3j0023"]
 	path = org/KR3j0023
 	url = git@github.com:kanripo/KR3j0023.git
-[submodule "org/KR3l0090"]
+[submodule "KR3l0090"]
 	path = org/KR3l0090
 	url = git@github.com:kanripo/KR3l0090.git
-[submodule "org/KR1b0001"]
+[submodule "KR1b0001"]
 	path = org/KR1b0001
 	url = git@github.com:kanripo/KR1b0001.git
-[submodule "org/KR3a0011"]
+[submodule "KR3a0011"]
 	path = org/KR3a0011
 	url = git@github.com:kanripo/KR3a0011.git
-[submodule "org/KR1j0007"]
+[submodule "KR1j0007"]
 	path = org/KR1j0007
 	url = git@github.com:kanripo/KR1j0007.git
-[submodule "org/KR1j0018"]
+[submodule "KR1j0018"]
 	path = org/KR1j0018
 	url = git@github.com:kanripo/KR1j0018.git
-[submodule "org/KR3a0007"]
+[submodule "KR3a0007"]
 	path = org/KR3a0007
 	url = git@github.com:kanripo/KR3a0007.git
-[submodule "org/KR1d0076"]
+[submodule "KR1d0076"]
 	path = org/KR1d0076
 	url = git@github.com:kanripo/KR1d0076.git
-[submodule "org/KR3g0001"]
+[submodule "KR3g0001"]
 	path = org/KR3g0001
 	url = git@github.com:kanripo/KR3g0001.git
-[submodule "org/KR3j0024"]
+[submodule "KR3j0024"]
 	path = org/KR3j0024
 	url = git@github.com:kanripo/KR3j0024.git
-[submodule "org/KR2i0001"]
+[submodule "KR2i0001"]
 	path = org/KR2i0001
 	url = git@github.com:kanripo/KR2i0001.git
-[submodule "org/KR3a0006"]
+[submodule "KR3a0006"]
 	path = org/KR3a0006
 	url = git@github.com:kanripo/KR3a0006.git
-[submodule "org/KR2g0003"]
+[submodule "KR2g0003"]
 	path = org/KR2g0003
 	url = git@github.com:kanripo/KR2g0003.git
-[submodule "org/KR2i0002"]
+[submodule "KR2i0002"]
 	path = org/KR2i0002
 	url = git@github.com:kanripo/KR2i0002.git
