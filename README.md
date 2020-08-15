@@ -69,7 +69,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3j0024](txt/KR3j0024) 獨斷
 - [x] [KR2d0002](txt/KR2d0002) 東觀漢記
 - [x] [KR2i0001](txt/KR2i0001) 吳越春秋
-- [ ] 鹽鐵論
+- [x] [KR3a0006](txt/KR3a0006) 鹽鐵論
 - [ ] 晏子春秋
 - [ ] 越絕書
 
