@@ -43,7 +43,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3a0001](txt/KR3a0001) 孔子家語
 - [x] [KR2e0001](txt/KR2e0001) 國語
 - [x] [KR5c0057](txt/KR5c0057) 老子道德經
-- [ ] 禮記
+- [x] [KR1d0052](txt/KR1d0052) 禮記
 - [ ] 列子
 - [ ] 論衡
 - [ ] 論語
