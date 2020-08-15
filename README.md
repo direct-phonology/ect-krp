@@ -48,7 +48,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3j0080](txt/KR3j0080) 論衡
 - [x] [KR1h0004](txt/KR1h0004) 論語
 - [x] [KR3j0009](txt/KR3j0009) 呂氏春秋
-- [ ] 孟子
+- [x] [KR1h0001](txt/KR1h0001) 孟子
 - [ ] 墨子
 - [ ] 穆天子傳
 - [ ] 白虎通
