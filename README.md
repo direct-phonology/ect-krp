@@ -55,7 +55,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3l0090](txt/KR3l0090) 山海經
 - [ ] 商君書
 - [x] [KR1b0001](txt/KR1b0001) 尚書
-- [ ] 申鑒
+- [x] [KR3a0011](txt/KR3a0011) 申鑒
 - [ ] 申子
 - [ ] 慎子
 - [ ] 史記
