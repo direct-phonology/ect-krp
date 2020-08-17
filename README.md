@@ -15,10 +15,10 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3f0001](https://www.kanripo.org/text/KR3f0001/) 周髀算經
 - [x] [KR2b0001](https://www.kanripo.org/text/KR2b0001/) 竹書紀年
 - [x] [KR4a0002](https://www.kanripo.org/text/KR4a0002/) 楚辭
-- [ ] 莊子
+- [x] [KR5c0126](https://www.kanripo.org/text/KR5c0126/) 莊子
 - [ ] 春秋公羊傳
-- [ ] 春秋穀梁傳
-- [ ] 春秋左傳
+- [x] [KR1e0008](https://www.kanripo.org/text/KR1e0008/) 春秋穀梁傳
+- [x] [KR1e0001](https://www.kanripo.org/text/KR1e0001/) 春秋左傳
 - [ ] 春秋繁露
 - [x] [KR3a0012](https://www.kanripo.org/text/KR3a0012/) 中論
 - [x] [KR1j0002](https://www.kanripo.org/text/KR1j0002/) 爾雅
@@ -27,7 +27,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 漢記
 - [x] [KR3c0005](https://www.kanripo.org/text/KR3c0005/) 韓非子
 - [x] [KR1c0066](https://www.kanripo.org/text/KR1c0066/) 韓詩外傳
-- [ ] 漢書
+- [x] [KR2a0007](https://www.kanripo.org/text/KR2a0007/) 漢書
 - [x] [KR3j0006](https://www.kanripo.org/text/KR3j0006/) 鶡冠子
 - [x] [KR1f0002](https://www.kanripo.org/text/KR1f0002/) 孝經
 - [x] [KR3a0008](https://www.kanripo.org/text/KR3a0008/) 新序
@@ -35,8 +35,8 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3a0005](https://www.kanripo.org/text/KR3a0005/) 新書
 - [x] [KR3a0004](https://www.kanripo.org/text/KR3a0004/) 新語
 - [x] [KR3a0002](https://www.kanripo.org/text/KR3a0002/) 荀子
-- [ ] 淮南子
-- [ ] 黃帝內經
+- [x] [KR3j0010](https://www.kanripo.org/text/KR3j0010/) 淮南子
+- [x] [KR3e0001](https://www.kanripo.org/text/KR3e0001/) 黃帝內經
 - [x] [KR1a0001](https://www.kanripo.org/text/KR1a0001/) 易經
 - [x] [KR2d0001](https://www.kanripo.org/text/KR2d0001/) 逸周書
 - [x] [KR1d0026](https://www.kanripo.org/text/KR1d0026/) 儀禮

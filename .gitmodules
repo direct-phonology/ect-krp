@@ -304,3 +304,21 @@
 [submodule "org/KR2i0002"]
 	path = org/KR2i0002
 	url = git@github.com:kanripo/KR2i0002.git
+[submodule "org/KR1e0001"]
+	path = org/KR1e0001
+	url = git@github.com:kanripo/KR1e0001.git
+[submodule "org/KR1e0008"]
+	path = org/KR1e0008
+	url = git@github.com:kanripo/KR1e0008.git
+[submodule "org/KR5c0126"]
+	path = org/KR5c0126
+	url = git@github.com:kanripo/KR5c0126.git
+[submodule "org/KR2a0007"]
+	path = org/KR2a0007
+	url = git@github.com:kanripo/KR2a0007.git
+[submodule "org/KR3j0010"]
+	path = org/KR3j0010
+	url = git@github.com:kanripo/KR3j0010.git
+[submodule "org/KR3e0001"]
+	path = org/KR3e0001
+	url = git@github.com:kanripo/KR3e0001.git
