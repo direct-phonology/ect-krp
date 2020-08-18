@@ -65,7 +65,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR1j0007](https://www.kanripo.org/text/KR1j0007/) 釋名
 - [x] [KR1j0018](https://www.kanripo.org/text/KR1j0018/) 說文解字
 - [x] [KR3a0007](https://www.kanripo.org/text/KR3a0007/) 說苑
-- [ ] 孫子兵法
+- [x] [KR3b0003](https://www.kanripo.org/text/KR3b0003/) 孫子兵法
 - [x] [KR1d0076](https://www.kanripo.org/text/KR1d0076/) 大戴禮記
 - [x] [KR3g0001](https://www.kanripo.org/text/KR3g0001/) 太玄經
 - [x] [KR3j0024](https://www.kanripo.org/text/KR3j0024/) 獨斷
