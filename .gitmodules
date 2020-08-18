@@ -322,3 +322,6 @@
 [submodule "org/KR3e0001"]
 	path = org/KR3e0001
 	url = git@github.com:kanripo/KR3e0001.git
+[submodule "org/KR2a0001"]
+	path = org/KR2a0001
+	url = git@github.com:kanripo/KR2a0001.git
