@@ -16,6 +16,8 @@ __email__ = "nbudak@princeton.edu"
 TITLE_RE = re.compile(r"^#\+TITLE: (.+)")
 COMMENTARY_RE = re.compile(r"\([^\)]+\)")
 
+# Titles of books that contain text sources
+TEXT_BOOKS = ["欽定四庫全書"]
 
 def get_title(path: Any) -> str:
     """Get the title of the text files in a document directory as a string."""
@@ -40,7 +42,7 @@ def clean_doc(path: Any) -> str:
 
     # clean all text files and add to output
     cleaned_output = ""
-    for file in path.glob("*.txt"):
+    for file in sorted(list(path.glob("*.txt"))):
         # ignore '000' files since they're usually ToCs, introductions, etc.
         if "000.txt" in str(file):
             continue
@@ -66,6 +68,9 @@ def clean_file(path: Any) -> str:
             continue
         # strip out paragraph markers (¶)
         cleaned_line = line.replace("¶", "")
+        # ignore names of books from which texts are drawn
+        if cleaned_line.strip() in TEXT_BOOKS:
+            continue
         # strip out commentary (parentheticals)
         cleaned_output += COMMENTARY_RE.sub("", cleaned_line)
     return cleaned_output
@@ -73,7 +78,7 @@ def clean_file(path: Any) -> str:
 
 if __name__ == "__main__":
     # create the txt/ folder if it doesn't exist
-    if not Path("txt/").exists():
+    if not Path("txt/").is_dir():
         os.mkdir("txt")
 
     # convert all documents in org/ folder into plaintext
