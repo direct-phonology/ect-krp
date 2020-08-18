@@ -55,7 +55,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR3l0092](https://www.kanripo.org/text/KR3l0092/) 穆天子傳
 - [x] [KR3j0023](https://www.kanripo.org/text/KR3j0023/) 白虎通
 - [x] [KR3l0090](https://www.kanripo.org/text/KR3l0090/) 山海經
-- [ ] 商君書
+- [x] [KR3c0004](https://www.kanripo.org/text/KR3c0004/) 商君書
 - [x] [KR1b0001](https://www.kanripo.org/text/KR1b0001/) 尚書
 - [x] [KR3a0011](https://www.kanripo.org/text/KR3a0011/) 申鑒
 - [ ] 申子

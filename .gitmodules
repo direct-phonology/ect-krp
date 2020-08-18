@@ -334,3 +334,6 @@
 [submodule "org/KR1e0007"]
 	path = org/KR1e0007
 	url = git@github.com:kanripo/KR1e0007.git
+[submodule "org/KR3c0004"]
+	path = org/KR3c0004
+	url = git@github.com:kanripo/KR3c0004.git
