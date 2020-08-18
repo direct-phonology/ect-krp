@@ -61,7 +61,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 申子
 - [ ] 慎子
 - [x] [KR2a0001](https://www.kanripo.org/text/KR2a0001/) 史記
-- [ ] 詩經
+- [x] [KR1c0001](https://www.kanripo.org/text/KR1c0001/) 詩經
 - [x] [KR1j0007](https://www.kanripo.org/text/KR1j0007/) 釋名
 - [x] [KR1j0018](https://www.kanripo.org/text/KR1j0018/) 說文解字
 - [x] [KR3a0007](https://www.kanripo.org/text/KR3a0007/) 說苑
