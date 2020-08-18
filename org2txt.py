@@ -13,8 +13,9 @@ __author__ = "Nick Budak"
 __email__ = "nbudak@princeton.edu"
 
 # Regular expressions used to find non-text content
-TITLE_RE = re.compile(r"^#\+TITLE: (.+)")
+TITLE_RE = re.compile(r"^#\+TITLE: (.+)$")
 COMMENTARY_RE = re.compile(r"\([^\)]+\)")
+PB_RE = re.compile(r"<pb:([^>]+)>")
 
 # Titles of books that contain text sources
 TEXT_BOOKS = ["欽定四庫全書"]
@@ -63,16 +64,16 @@ def clean_file(path: Any) -> str:
         # ignore comments and metadata
         if line.startswith("#"):
             continue
-        # ignore page breaks
-        if line.startswith("<"):
-            continue
         # strip out paragraph markers (¶)
         cleaned_line = line.replace("¶", "")
         # ignore names of books from which texts are drawn
         if cleaned_line.strip() in TEXT_BOOKS:
             continue
         # strip out commentary (parentheticals)
-        cleaned_output += COMMENTARY_RE.sub("", cleaned_line)
+        cleaned_line = COMMENTARY_RE.sub("", cleaned_line)
+        # strip out page breaks
+        cleaned_line = PB_RE.sub("", cleaned_line)
+        cleaned_output += cleaned_line
     return cleaned_output
 
 
