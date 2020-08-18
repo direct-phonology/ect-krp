@@ -19,7 +19,7 @@ Shown in the order listed in Loewe 1993:
 - [ ] 春秋公羊傳
 - [x] [KR1e0008](https://www.kanripo.org/text/KR1e0008/) 春秋穀梁傳
 - [x] [KR1e0001](https://www.kanripo.org/text/KR1e0001/) 春秋左傳
-- [ ] 春秋繁露
+- [x] [KR1e0122](https://www.kanripo.org/text/KR1e0122/) 春秋繁露
 - [x] [KR3a0012](https://www.kanripo.org/text/KR3a0012/) 中論
 - [x] [KR1j0002](https://www.kanripo.org/text/KR1j0002/) 爾雅
 - [x] [KR3a0009](https://www.kanripo.org/text/KR3a0009/) 法言
