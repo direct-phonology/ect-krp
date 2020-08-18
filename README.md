@@ -16,7 +16,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR2b0001](https://www.kanripo.org/text/KR2b0001/) 竹書紀年
 - [x] [KR4a0002](https://www.kanripo.org/text/KR4a0002/) 楚辭
 - [x] [KR5c0126](https://www.kanripo.org/text/KR5c0126/) 莊子
-- [ ] 春秋公羊傳
+- [x] [KR1e0007](https://www.kanripo.org/text/KR1e0007/) 春秋公羊傳
 - [x] [KR1e0008](https://www.kanripo.org/text/KR1e0008/) 春秋穀梁傳
 - [x] [KR1e0001](https://www.kanripo.org/text/KR1e0001/) 春秋左傳
 - [x] [KR1e0122](https://www.kanripo.org/text/KR1e0122/) 春秋繁露
