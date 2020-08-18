@@ -24,7 +24,7 @@ Shown in the order listed in Loewe 1993:
 - [x] [KR1j0002](https://www.kanripo.org/text/KR1j0002/) 爾雅
 - [x] [KR3a0009](https://www.kanripo.org/text/KR3a0009/) 法言
 - [x] [KR3j0081](https://www.kanripo.org/text/KR3j0081/) 風俗通義
-- [ ] 漢記
+- [x] [KR2b0003](https://www.kanripo.org/text/KR2b0003/) 漢記
 - [x] [KR3c0005](https://www.kanripo.org/text/KR3c0005/) 韓非子
 - [x] [KR1c0066](https://www.kanripo.org/text/KR1c0066/) 韓詩外傳
 - [x] [KR2a0007](https://www.kanripo.org/text/KR2a0007/) 漢書
