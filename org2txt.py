@@ -19,6 +19,7 @@ PB_RE = re.compile(r"<pb:([^>]+)>")
 EMPTY_LINE_RE = re.compile(r"^\s+\n$")
 WS_RE = re.compile(r"\n{3,}")
 KR_ENTITY_RE = re.compile(r"&(KR\d+);")
+CHAR_COMBO_RE = re.compile(r"\[[^\]]+\]")
 
 # Titles of books that contain text sources; should be stripped from output
 TEXT_BOOKS = ["欽定四庫全書"]
@@ -32,9 +33,14 @@ with open("gaiji.json") as file:
     GAIJI: Dict = json.loads(file.read())
 
 
-def get_unicode(match: Match[str]) -> str:
+def get_entity_unicode(match: Match[str]) -> str:
     """Return the unicode private use representation for a special entity."""
     return GAIJI.get(match.group(1), None)
+
+
+def get_combo_unicode(match: Match[str]) -> str:
+    """Return the unicode private use representation for character combos."""
+    return GAIJI.get(match.group(0), None)
 
 
 def get_title(path: Any) -> str:
@@ -77,14 +83,16 @@ def clean_file(path: Any) -> str:
         # ignore names of books from which texts are drawn
         if line.strip() in TEXT_BOOKS:
             continue
-        # strip out commentary (parentheticals)
-        cleaned_line = COMMENTARY_RE.sub("", line)
         # strip out page breaks
-        cleaned_line = PB_RE.sub("", cleaned_line)
+        cleaned_line = PB_RE.sub("", line)
         # strip out paragraph markers (¶)
         cleaned_line = cleaned_line.replace("¶", "")
         # replace kanripo entities with private use unicode
-        cleaned_line = KR_ENTITY_RE.sub(get_unicode, cleaned_line)
+        cleaned_line = KR_ENTITY_RE.sub(get_entity_unicode, cleaned_line)
+        # replace combo characters like [a+b] with private use unicode
+        cleaned_line = CHAR_COMBO_RE.sub(get_combo_unicode, cleaned_line)
+        # strip out commentary (parentheticals)
+        cleaned_line = COMMENTARY_RE.sub("", cleaned_line)
         # ignore lines with only whitespace
         if not EMPTY_LINE_RE.match(cleaned_line):
             cleaned_output += cleaned_line
