@@ -15,7 +15,7 @@ __email__ = "nbudak@princeton.edu"
 
 # Regular expressions used to find and transform non-text content
 COMMENTARY_RE = re.compile(r"\([^\)]+\)(¶\n)?")
-PB_RE = re.compile(r"<pb:([^>]+)>")
+PB_RE = re.compile(r"<pb:([^>]+)>(¶\n)?")
 EMPTY_LINE_RE = re.compile(r"^\s+\n$")
 WS_RE = re.compile(r"\n{3,}")
 KR_ENTITY_RE = re.compile(r"&(KR\d+);")
