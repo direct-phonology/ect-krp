@@ -8,7 +8,7 @@ import os
 import re
 import sys
 from pathlib import Path
-from typing import Any
+from typing import Any, Dict, Match
 
 __author__ = "Nick Budak"
 __email__ = "nbudak@princeton.edu"
@@ -18,13 +18,24 @@ COMMENTARY_RE = re.compile(r"\([^\)]+\)(¶\n)?")
 PB_RE = re.compile(r"<pb:([^>]+)>")
 EMPTY_LINE_RE = re.compile(r"^\s+\n$")
 WS_RE = re.compile(r"\n{3,}")
+KR_ENTITY_RE = re.compile(r"&(KR\d+);")
 
 # Titles of books that contain text sources; should be stripped from output
 TEXT_BOOKS = ["欽定四庫全書"]
 
 # Metadata table - titles, etc.
 with open("metadata.json") as file:
-    METADATA = json.loads(file.read())
+    METADATA: Dict = json.loads(file.read())
+
+# Unicode private use characters that replace html entities and other gaiji
+with open("gaiji.json") as file:
+    GAIJI: Dict = json.loads(file.read())
+
+
+def get_unicode(match: Match[str]) -> str:
+    """Return the unicode private use representation for a special entity."""
+    return GAIJI.get(match.group(1), None)
+
 
 def get_title(path: Any) -> str:
     """Get the title of the text files in a document directory as a string."""
@@ -72,6 +83,8 @@ def clean_file(path: Any) -> str:
         cleaned_line = PB_RE.sub("", cleaned_line)
         # strip out paragraph markers (¶)
         cleaned_line = cleaned_line.replace("¶", "")
+        # replace kanripo entities with private use unicode
+        cleaned_line = KR_ENTITY_RE.sub(get_unicode, cleaned_line)
         # ignore lines with only whitespace
         if not EMPTY_LINE_RE.match(cleaned_line):
             cleaned_output += cleaned_line
