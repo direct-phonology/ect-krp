@@ -13,10 +13,11 @@ from typing import Any
 __author__ = "Nick Budak"
 __email__ = "nbudak@princeton.edu"
 
-# Regular expressions used to find non-text content
-TITLE_RE = re.compile(r"^#\+TITLE: (.+)$")
-COMMENTARY_RE = re.compile(r"\([^\)]+\)")
+# Regular expressions used to find and transform non-text content
+COMMENTARY_RE = re.compile(r"\([^\)]+\)(¶\n)?")
 PB_RE = re.compile(r"<pb:([^>]+)>")
+EMPTY_LINE_RE = re.compile(r"^\s+\n$")
+WS_RE = re.compile(r"\n{3,}")
 
 # Titles of books that contain text sources; should be stripped from output
 TEXT_BOOKS = ["欽定四庫全書"]
@@ -62,16 +63,21 @@ def clean_file(path: Any) -> str:
         # ignore comments and metadata
         if line.startswith("#"):
             continue
-        # strip out paragraph markers (¶)
-        cleaned_line = line.replace("¶", "")
         # ignore names of books from which texts are drawn
-        if cleaned_line.strip() in TEXT_BOOKS:
+        if line.strip() in TEXT_BOOKS:
             continue
         # strip out commentary (parentheticals)
-        cleaned_line = COMMENTARY_RE.sub("", cleaned_line)
+        cleaned_line = COMMENTARY_RE.sub("", line)
         # strip out page breaks
         cleaned_line = PB_RE.sub("", cleaned_line)
-        cleaned_output += cleaned_line
+        # strip out paragraph markers (¶)
+        cleaned_line = cleaned_line.replace("¶", "")
+        # ignore lines with only whitespace
+        if not EMPTY_LINE_RE.match(cleaned_line):
+            cleaned_output += cleaned_line
+
+    # collapse consecutive whitespace
+    cleaned_output = WS_RE.sub("\n\n", cleaned_output)
     return cleaned_output
 
 
