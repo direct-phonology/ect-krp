@@ -3,6 +3,7 @@
 
 """Convert Kanseki Repository Mandoku-format (org-mode) files to plaintext."""
 
+import json
 import os
 import re
 import sys
@@ -17,23 +18,20 @@ TITLE_RE = re.compile(r"^#\+TITLE: (.+)$")
 COMMENTARY_RE = re.compile(r"\([^\)]+\)")
 PB_RE = re.compile(r"<pb:([^>]+)>")
 
-# Titles of books that contain text sources
+# Titles of books that contain text sources; should be stripped from output
 TEXT_BOOKS = ["欽定四庫全書"]
+
+# Metadata table - titles, etc.
+with open("metadata.json") as file:
+    METADATA = json.loads(file.read())
 
 def get_title(path: Any) -> str:
     """Get the title of the text files in a document directory as a string."""
     if not path.is_dir():
         raise NotADirectoryError(path)
 
-    # look for a TITLE: line in each of the files, return when we find one
-    for text_file in path.glob("*.txt"):
-        with text_file.open() as file:
-            lines = file.readlines()
-        for line in lines:
-            title = TITLE_RE.match(line)
-            if title:
-                return title.group(1)
-    return ""
+    # fetch title from metadata table by Kanripo ID (path stem)
+    return METADATA.get(path.stem, None)
 
 
 def clean_doc(path: Any) -> str:
