@@ -14,8 +14,8 @@ __author__ = "Nick Budak"
 __email__ = "nbudak@princeton.edu"
 
 # Regular expressions used to find and transform non-text content
-COMMENTARY_RE = re.compile(r"\([^\)]+\)(¶\n)?")
-PB_RE = re.compile(r"<pb:([^>]+)>(¶\n)?")
+COMMENTARY_RE = re.compile(r"(¶\n)?\([^\)]+\)(¶\n)?")
+PB_RE = re.compile(r"(¶\n)?<pb:([^>]+)>(¶\n)?")
 EMPTY_LINE_RE = re.compile(r"^\s+\n$")
 WS_RE = re.compile(r"\n{3,}")
 KR_ENTITY_RE = re.compile(r"&(KR\d+);")
@@ -81,7 +81,7 @@ def clean_file(path: Any) -> str:
         if line.startswith("#"):
             continue
         # ignore names of books from which texts are drawn
-        if line.strip() in TEXT_BOOKS:
+        if any(book in line for book in TEXT_BOOKS):
             continue
         # strip out page breaks
         cleaned_line = PB_RE.sub("", line)
