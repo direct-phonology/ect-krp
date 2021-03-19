@@ -99,7 +99,8 @@ if __name__ == "__main__":
     # convert all documents in org/ folder into json lines
     for path in IN_DIR.iterdir():
         if path.is_dir():
-
+            print(f"{path.stem}")
+            
             # create a new jsonl file to hold contents
             title = get_title(path)
             with jsonlines.open(f"{OUT_DIR}/{path.stem}.jsonl", mode="w") as writer:
