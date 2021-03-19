@@ -6,7 +6,6 @@
 import json
 import os
 import re
-import sys
 from pathlib import Path
 from typing import Any, Dict, Match
 
@@ -24,9 +23,9 @@ CHAR_COMBO_RE = re.compile(r"\[[^\]]+\]")
 # Titles of books that contain text sources; should be stripped from output
 TEXT_BOOKS = ["欽定四庫全書"]
 
-# Metadata table - titles, etc.
-with open("metadata.json") as file:
-    METADATA: Dict = json.loads(file.read())
+# Where this script will load input and output processed texts
+IN_DIR = Path("./org")
+OUT_DIR = Path("./txt")
 
 # Unicode private use characters that replace html entities and other gaiji
 with open("gaiji.json") as file:
@@ -41,30 +40,6 @@ def get_entity_unicode(match: Match[str]) -> str:
 def get_combo_unicode(match: Match[str]) -> str:
     """Return the unicode private use representation for character combos."""
     return GAIJI.get(match.group(0), None)
-
-
-def get_title(path: Any) -> str:
-    """Get the title of the text files in a document directory as a string."""
-    if not path.is_dir():
-        raise NotADirectoryError(path)
-
-    # fetch title from metadata table by Kanripo ID (path stem)
-    return METADATA.get(path.stem, None)
-
-
-def clean_doc(path: Any) -> str:
-    """Convert a directory of org-mode text files into a cleaned string."""
-    if not path.is_dir():
-        raise NotADirectoryError(path)
-
-    # clean all text files and add to output
-    cleaned_output = ""
-    for file in sorted(list(path.glob("*.txt"))):
-        # ignore '000' files since they're usually ToCs, introductions, etc.
-        if "000.txt" in str(file):
-            continue
-        cleaned_output += clean_file(file)
-    return cleaned_output
 
 
 def clean_file(path: Any) -> str:
@@ -104,16 +79,28 @@ def clean_file(path: Any) -> str:
 
 if __name__ == "__main__":
     # create the txt/ folder if it doesn't exist
-    if not Path("txt/").is_dir():
-        os.mkdir("txt")
+    if not OUT_DIR.is_dir():
+        os.mkdir(OUT_DIR)
 
     # convert all documents in org/ folder into plaintext
-    for doc in Path("org/").iterdir():
-        if doc.is_dir():
-            # get title and cleaned text
-            title = get_title(doc)
-            cleaned_doc = clean_doc(doc)
-            # write to a new file in txt/ folder
-            new_file = Path(f"txt/{title}.txt")
-            with new_file.open("w") as file:
-                file.write(cleaned_doc)
+    for path in IN_DIR.iterdir():
+        if path.is_dir():
+            print(f"{path.stem}")
+
+            # create a directory for all files in this doc
+            if not Path(f"{OUT_DIR}/{path.stem}").is_dir():
+                os.mkdir(f"{OUT_DIR}/{path.stem}")
+
+            # clean each file and store in new doc directory
+            for file in sorted(list(path.glob("*.txt"))):
+
+                # ignore '000' files since they're usually ToCs / introductions
+                if "000.txt" in str(file):
+                    continue
+                cleaned_file = clean_file(file)
+
+                # write to a new file in txt/ folder
+                new_file = Path(f"{OUT_DIR}/{path.stem}/{file.name}")
+                with new_file.open("w") as fh:
+                    fh.write(cleaned_file)
+                print(f"\t{file.name}")
