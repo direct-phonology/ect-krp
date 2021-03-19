@@ -25,7 +25,7 @@ $ pip install -r requirements.txt
 |-|-|-|
 |戰國策|Chan kuo ts'e|[KR2e0003](https://www.kanripo.org/text/KR2e0003/)|
 |潛夫論|Ch'ien fu lun|[KR3a0010](https://www.kanripo.org/text/KR3a0010/)|
-|九章算術iǔzhāng Suànshù|Chiu chang suan shu|[KR3f0032](https://www.kanripo.org/text/KR3f0032/)|
+|九章算術|Chiu chang suan shu|[KR3f0032](https://www.kanripo.org/text/KR3f0032/)|
 |周禮|Chou li|[KR1d0002](https://www.kanripo.org/text/KR1d0002/)|
 |周髀算經|Chou pi suan ching|[KR3f0001](https://www.kanripo.org/text/KR3f0001/)|
 |竹書紀年|Chu shu chi nien|[KR2b0001](https://www.kanripo.org/text/KR2b0001/)|
