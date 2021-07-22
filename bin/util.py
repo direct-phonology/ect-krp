@@ -85,7 +85,7 @@ def clean_file(path: Path) -> str:
         # strip out paragraph markers (¶)
         cleaned_line = cleaned_line.replace("¶", "")
         # strip out punctuation
-        # cleaned_line = PUNCT_RE.sub("", cleaned_line)
+        cleaned_line = PUNCT_RE.sub("", cleaned_line)
         # replace kanripo entities with private use unicode
         cleaned_line = KR_ENTITY_RE.sub(get_entity_unicode, cleaned_line)
         # replace combo characters like [a+b] with private use unicode
