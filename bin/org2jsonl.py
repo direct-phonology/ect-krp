@@ -7,7 +7,7 @@ import jsonlines
 import os
 from pathlib import Path
 
-from lib.util import clean_file, get_title
+from util import clean_file, get_title
 
 __author__ = "Nick Budak"
 __email__ = "nbudak@princeton.edu"
