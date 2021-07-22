@@ -13,8 +13,8 @@ $ git submodule update --remote --merge
 ```
 Then, you can run either of the two scripts included in this repository to generate plaintext or json-lines files:
 ```sh
-$ python org2txt.py     # for plaintext
-$ python org2jsonl.py   # for json-lines
+$ bin/org2txt.py     # for plaintext
+$ bin/org2jsonl.py   # for json-lines
 ```
 Note that the `jsonlines` library must be installed for the latter. You can install it with:
 ```sh
