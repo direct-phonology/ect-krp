@@ -10,10 +10,10 @@ from pathlib import Path
 
 # Regular expressions used to find and transform text content
 NUMBERS_RE = re.compile(r"[AB]?\d+(\.\d+)+")
-PUNCT_RE = re.compile(r"[《》，。、：「」？！]")
+PUNCT_RE = re.compile(r"[《》，。、：「」？！『』；]")
 METADATA_RE = re.compile(r"^\s*[漢晉].*[撰注舒]¶$")
 TITLE_RE = re.compile(r"^\*{2,3}")
-SECTION_RE = re.compile(r"^\s*\S{0,8}[第卷][一二三四五六七八九]?十?[一二三四五六七八九上十下中][¶\s]")
+SECTION_RE = re.compile(r"^\s*\S{0,8}[第卷]之?[一二三四五六七八九]?十?[一二三四五六七八九上十下中][¶\s]")
 COMMENTARY_RE = re.compile(r"(¶\n)?\([^\)]+\)(¶\n)?")
 PB_RE = re.compile(r"(¶\n)?<pb:([^>]+)>(¶\n)?")
 EMPTY_LINE_RE = re.compile(r"^\s+\n$")
