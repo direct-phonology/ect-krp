@@ -10,6 +10,7 @@ from pathlib import Path
 
 # Regular expressions used to find and transform text content
 METADATA_RE = re.compile(r"^\s*[漢晉].*[撰注舒]¶$")
+TITLE_RE = re.compile(r"^\*{2,3}")
 SECTION_RE = re.compile(r"^\s*\S{0,8}[第卷][一二三四五六七八九]?十?[一二三四五六七八九上十下中][¶\s]")
 COMMENTARY_RE = re.compile(r"(¶\n)?\([^\)]+\)(¶\n)?")
 PB_RE = re.compile(r"(¶\n)?<pb:([^>]+)>(¶\n)?")
@@ -72,8 +73,8 @@ def clean_file(path: Path) -> str:
         # ignore lines that are metadata (dynasty, author, etc.)
         if METADATA_RE.match(line):
             continue
-        # ignore lines that are section headers
-        if SECTION_RE.match(line):
+        # ignore lines that are section/title headers
+        if SECTION_RE.match(line) or TITLE_RE.match(line):
             continue
         # strip out page breaks
         cleaned_line = PB_RE.sub("", line)
