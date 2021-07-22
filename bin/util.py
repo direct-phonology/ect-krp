@@ -5,6 +5,7 @@
 
 import re
 import json
+import textwrap
 from typing import Match
 from pathlib import Path
 
@@ -17,7 +18,7 @@ SECTION_RE = re.compile(r"^\s*\S{0,8}[第卷]之?[一二三四五六七八九]?�
 COMMENTARY_RE = re.compile(r"(¶\n)?\([^\)]+\)(¶\n)?")
 PB_RE = re.compile(r"(¶\n)?<pb:([^>]+)>(¶\n)?")
 EMPTY_LINE_RE = re.compile(r"^\s+\n$")
-WS_RE = re.compile(r"\n{3,}")
+WS_RE = re.compile(r"\s")
 KR_ENTITY_RE = re.compile(r"&(KR\d+);")
 CHAR_COMBO_RE = re.compile(r"\[[^\]]+\]")
 
@@ -56,6 +57,11 @@ def get_title(path: Path) -> str:
     return METADATA.get(path.stem, None)
 
 
+def wrap_lines(text: str, width: int) -> str:
+    """Wrap text to a given char width."""
+    return "\n".join(textwrap.wrap(text, width=width))
+
+
 def clean_file(path: Path) -> str:
     """Convert a single org-mode text file into a cleaned string."""
     if not path.is_file():
@@ -92,10 +98,8 @@ def clean_file(path: Path) -> str:
         cleaned_line = CHAR_COMBO_RE.sub(get_combo_unicode, cleaned_line)
         # strip out commentary (parentheticals)
         cleaned_line = COMMENTARY_RE.sub("", cleaned_line)
-        # ignore lines with only whitespace
-        if not EMPTY_LINE_RE.match(cleaned_line):
-            cleaned_output += cleaned_line
+        # add line to output
+        cleaned_output += cleaned_line
 
-    # collapse consecutive whitespace
-    cleaned_output = WS_RE.sub("\n\n", cleaned_output)
-    return cleaned_output
+    # remove whitespace and return
+    return WS_RE.sub("", cleaned_output)

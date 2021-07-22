@@ -6,7 +6,7 @@
 import os
 from pathlib import Path
 
-from util import clean_file
+from util import clean_file, wrap_lines
 
 __author__ = "Nick Budak"
 __email__ = "nbudak@princeton.edu"
@@ -37,9 +37,10 @@ if __name__ == "__main__":
                 if "000.txt" in str(file):
                     continue
                 cleaned_file = clean_file(file)
+                output = wrap_lines(cleaned_file, 13)
 
                 # write to a new file in txt/ folder
                 new_file = Path(f"{OUT_DIR}/{path.stem}/{file.name}")
                 with new_file.open("w") as fh:
-                    fh.write(cleaned_file)
+                    fh.write(output)
                 print(f"\t{file.name}")
