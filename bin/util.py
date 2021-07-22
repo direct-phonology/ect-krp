@@ -73,8 +73,8 @@ def clean_file(path: Path) -> str:
         if METADATA_RE.match(line):
             continue
         # ignore lines that are section headers
-        if SECTION_RE.match(line):
-            continue
+        # if SECTION_RE.match(line):
+        #     continue
         # strip out page breaks
         cleaned_line = PB_RE.sub("", line)
         # strip out paragraph markers (¶)
