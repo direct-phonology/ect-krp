@@ -9,6 +9,8 @@ from typing import Match
 from pathlib import Path
 
 # Regular expressions used to find and transform text content
+NUMBERS_RE = re.compile(r"[AB]?\d+(\.\d+)+")
+PUNCT_RE = re.compile(r"[《》，。、：「」？！]")
 METADATA_RE = re.compile(r"^\s*[漢晉].*[撰注舒]¶$")
 TITLE_RE = re.compile(r"^\*{2,3}")
 SECTION_RE = re.compile(r"^\s*\S{0,8}[第卷][一二三四五六七八九]?十?[一二三四五六七八九上十下中][¶\s]")
@@ -64,22 +66,26 @@ def clean_file(path: Path) -> str:
     with path.open() as file:
         lines = file.readlines()
     for line in lines:
+        # remove numeric markers
+        cleaned_line = NUMBERS_RE.sub("", line)
         # ignore comments
-        if line.startswith("#"):
+        if cleaned_line.startswith("#"):
             continue
         # ignore any line with a TEXT_BOOK name in it
-        if any(book in line for book in TEXT_BOOKS):
+        if any(book in cleaned_line for book in TEXT_BOOKS):
             continue
         # ignore lines that are metadata (dynasty, author, etc.)
-        if METADATA_RE.match(line):
+        if METADATA_RE.match(cleaned_line):
             continue
         # ignore lines that are section/title headers
-        if SECTION_RE.match(line) or TITLE_RE.match(line):
+        if SECTION_RE.match(cleaned_line) or TITLE_RE.match(cleaned_line):
             continue
         # strip out page breaks
-        cleaned_line = PB_RE.sub("", line)
+        cleaned_line = PB_RE.sub("", cleaned_line)
         # strip out paragraph markers (¶)
         cleaned_line = cleaned_line.replace("¶", "")
+        # strip out punctuation
+        # cleaned_line = PUNCT_RE.sub("", cleaned_line)
         # replace kanripo entities with private use unicode
         cleaned_line = KR_ENTITY_RE.sub(get_entity_unicode, cleaned_line)
         # replace combo characters like [a+b] with private use unicode
