@@ -9,16 +9,20 @@ You can download compressed archives of all texts from the [releases page](https
 ### Updating
 To generate your own cleaned copy from the latest sources, first run:
 ```sh
-$ git submodule update --remote --merge
+$ git submodule update --init
 ```
-Then, you can run either of the two scripts included in this repository to generate plaintext or json-lines files:
+Then, you can run either of the two python scripts included in this repository to generate plaintext or json-lines files:
 ```sh
 $ bin/org2txt.py     # for plaintext
 $ bin/org2jsonl.py   # for json-lines
 ```
-Note that the `jsonlines` library must be installed for the latter. You can install it with:
+Note that the `jsonlines` python library must be installed for the latter. You can install it with:
 ```sh
 $ pip install -r requirements.txt
+```
+To periodically update the Kanseki repository texts from the upstream source, you can run:
+```sh
+$ git submodule update --remote --merge
 ```
 ## Titles
 |title|wade-giles|source|
