@@ -3,6 +3,8 @@ This repository aggregates the Kanseki Repository's digital versions of 64 key t
 
 Note that **not all texts are represented** - both _Shenzi_ texts<sup>2</sup> are not included here. Neither text is extant in the Kanseki Repository, and sourcing digital versions is difficult due to the texts' severely fragmentary nature. Users seeking these texts are encouraged to visit the versions offered by the Chinese Text Project<sup>3</sup>.
 
+Texts are preprocessed to remove paratext (e.g. commentaries), punctuation, whitespace, and non-Chinese characters. The aim is to produce output that can be used for machine learning, natural language processing, and other computational applications.
+
 ## Usage
 ### Downloading
 You can download compressed archives of all texts from the [releases page](https://github.com/direct-phonology/ect-krp/releases).

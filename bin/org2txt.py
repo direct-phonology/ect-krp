@@ -36,8 +36,7 @@ if __name__ == "__main__":
                 # ignore '000' files since they're usually ToCs / introductions
                 if "000.txt" in str(file):
                     continue
-                cleaned_file = clean_file(file)
-                output = wrap_lines(cleaned_file, 13)
+                output = clean_file(file)
 
                 # write to a new file in txt/ folder
                 new_file = Path(f"{OUT_DIR}/{path.stem}/{file.name}")
