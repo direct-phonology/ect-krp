@@ -55,9 +55,9 @@
 [submodule "KR3a0005"]
 	path = org/KR3a0005
 	url = git@github.com:kanripo/KR3a0005.git
-[submodule "KR1f0002"]
-	path = org/KR1f0002
-	url = git@github.com:kanripo/KR1f0002.git
+[submodule "KR1f0001"]
+	path = org/KR1f0001
+	url = git@github.com:kanripo/KR1f0001.git
 [submodule "KR3a0008"]
 	path = org/KR3a0008
 	url = git@github.com:kanripo/KR3a0008.git
@@ -208,9 +208,6 @@
 [submodule "org/KR3a0005"]
 	path = org/KR3a0005
 	url = git@github.com:kanripo/KR3a0005.git
-[submodule "org/KR1f0002"]
-	path = org/KR1f0002
-	url = git@github.com:kanripo/KR1f0002.git
 [submodule "org/KR3a0008"]
 	path = org/KR3a0008
 	url = git@github.com:kanripo/KR3a0008.git
@@ -343,3 +340,6 @@
 [submodule "org/KR3b0003"]
 	path = org/KR3b0003
 	url = git@github.com:kanripo/KR3b0003.git
+[submodule "org/KR1f0001"]
+	path = org/KR1f0001
+	url = https://github.com/kanripo/KR1f0001

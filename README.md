@@ -50,7 +50,7 @@ $ git submodule update --remote --merge
 |韓詩外傳|Han shi waizhuan|Han shih wai chuan|[KR1c0066](https://www.kanripo.org/text/KR1c0066/)|
 |漢書|Han Shu|Han shu|[KR2a0007](https://www.kanripo.org/text/KR2a0007/)|
 |鶡冠子|Heguanzi|Ho kuan tzu|[KR3j0006](https://www.kanripo.org/text/KR3j0006/)|
-|孝經|Xiao Jing|Hsiao ching|[KR1f0002](https://www.kanripo.org/text/KR1f0002/)|
+|孝經|Xiao Jing|Hsiao ching|[KR1f0001](https://www.kanripo.org/text/KR1f0001/)|
 |新序|Xin Xu|Hsin hsü|[KR3a0008](https://www.kanripo.org/text/KR3a0008/)|
 |新論|Xin lun|Hsin lun|[KR3j0192](https://www.kanripo.org/text/KR3j0192/)|
 |新書|Xin shu|Hsin shu|[KR3a0005](https://www.kanripo.org/text/KR3a0005/)|
